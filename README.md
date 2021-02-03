@@ -10,6 +10,8 @@ To Run:
 | go build -o main main.go deck.go game.go player.go |
 | %USERPROFILE%\Go\bin\build-lambda-zip.exe -output main.zip main |
 
+Or just upload the included main.zip to your AWS Lambda.
+
 
 
 ## Battle of the Beasts!
