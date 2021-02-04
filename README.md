@@ -2,7 +2,7 @@
 
 Ready to go app and to be deployed in AWS Lambda.
 
-To Run:
+To Build:
 
 | For PC  |
 | ------------- |
@@ -10,7 +10,7 @@ To Run:
 | go build -o main main.go deck.go game.go player.go |
 | %USERPROFILE%\Go\bin\build-lambda-zip.exe -output main.zip main |
 
-
+After this just uppload the main.zip file to aws lamda en create an API in API Gateway to point at your main func.
 
 ## Battle of the Beasts!
 In a time before ages there were two giants colliding in two different parts of the world.
